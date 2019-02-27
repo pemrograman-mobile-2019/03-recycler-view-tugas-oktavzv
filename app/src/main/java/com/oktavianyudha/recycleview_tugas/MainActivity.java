@@ -28,9 +28,10 @@ public class MainActivity extends Activity {
         recyclerView.setLayoutManager(layoutManager);
         List<String> input = new ArrayList<>();
         for (int i = 0; i < 100; i++) {
-            input.add("Test" + i);
+            input.add("Wallpaper" + i);
 
-        mAdapter = new MyAdapter(input);
-        recyclerView.setAdapter(mAdapter);
+            mAdapter = new MyAdapter(input);
+            recyclerView.setAdapter(mAdapter);
+        }
     }
 }
